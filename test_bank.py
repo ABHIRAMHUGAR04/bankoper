@@ -6,7 +6,7 @@ def test_deposit():
     assert totalBal == 230000
     assert updatedBal == 230000
 
-def test_withderaw():
+def test_withdraw():
     totalBal, updatedBal = bankoper(100000, 40000, 10000)
 
     assert totalBal == 140000
