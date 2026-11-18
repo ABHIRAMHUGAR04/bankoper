@@ -1,4 +1,4 @@
-from bank.py import bankoper
+from bank import bankoper
 
 def test_deposit():
     totalBal, updatedBal = bankoper(200000, 30000, 0)
